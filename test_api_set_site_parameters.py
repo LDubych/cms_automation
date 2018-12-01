@@ -13,7 +13,7 @@ def session():
         'email': 'email@gmail.com',
         'password': '123'
     }
-    url = "https://grading_site/login"
+    url = "https://site.com/login"
     session.post(url, data=data)
     return session
 
